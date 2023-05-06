@@ -8,3 +8,4 @@ Considering adding random number generators for the distributions.
 Install using; pip install "git+https://github.com/LappisProblems/LappisDistributions.git#egg=LappisDistributions"
 
 The following distributions are currently available;
+- PERT
