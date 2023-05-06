@@ -1,5 +1,5 @@
 python>=3.6.0
-numpy
-math
-scipy.special as sc
+numpy>=1.0.0
+math>=3.0.0
+scipy>=1.0.0
 
