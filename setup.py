@@ -8,4 +8,8 @@ setup(
     license='MIT',
     packages=['LappisDistributions'],
     description='A collection of selected distributions',
+    install_requires=[
+    #'python>=3.6.0',
+    #'numpy>=0.10.0'
+    ]
 )
