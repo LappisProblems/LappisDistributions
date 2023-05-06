@@ -16,7 +16,7 @@ class PERT:
         beta=(5*c-a-4*b)/(c-a)
         
         #Define PDF, function returns the probability of x
-        pdf = ((x-a)**(alpha-1)*(c-x)**(beta-1))/(sc.beta(alpha, beta)*(c-a)**(alpha+beta-1))
+        pdf = ((x-a)**(alpha-1)*(c-x)**(beta-1))/(scipy.special.beta(alpha, beta)*(c-a)**(alpha+beta-1))
         return pdf
 
     #Define the PERT cumulative density function
@@ -37,7 +37,7 @@ class PERT:
         z=(x-a)/(c-a)
 
         #Define CDF, function returns P(X<=x)
-        cdf= sc.betainc(alpha, beta, z)
+        cdf=scipy.special.betainc(alpha, beta, z)
         return cdf
     
     #Define the PERT mean
@@ -68,7 +68,7 @@ class PERT:
         beta=(5*c-a-4*b)/(c-a)
 
         #Calculate median
-        medi=sc.betainc(alpha, beta, 0.5)**(-1) * (c-a)+a
+        medi=scipy.special.betainc(alpha, beta, 0.5)**(-1) * (c-a)+a
         return medi
     
     #Define the PERT mode
