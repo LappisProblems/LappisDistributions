@@ -1,0 +1,5 @@
+python>=3.6.0
+numpy
+math
+scipy.special as sc
+
