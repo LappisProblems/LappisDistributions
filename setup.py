@@ -6,7 +6,7 @@ setup(
     author_email='timothy.chapman98@outlook.com',
     url='https://github.com/LappisProblems/LappisDistributions',
     license='MIT',
-    packages=['LappisDistributions'],
+    packages=['distributions'],
     description='A collection of selected distributions',
     install_requires=[]
 )

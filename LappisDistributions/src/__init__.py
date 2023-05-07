@@ -1,1 +1,1 @@
-from LappisDistributions import PERT
+from distributions import PERT
