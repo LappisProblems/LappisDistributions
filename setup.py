@@ -5,7 +5,7 @@ setup(name='LappisDistributions',
       author='Timothy Chapman',
       author_email='timothy.chapman98@outlook.com',
       package_dir={'':'src'},
-      packages=['LappisDistributions'],
+      packages=find_packages(where='src'),
       install_requires=[],
       zip_safe=False,
       licence='MIT'
