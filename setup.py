@@ -9,6 +9,9 @@ setup(
     packages=['LappisDistributions'],
     description='A collection of selected distributions',
     install_requires=[
-    #'python>=3.6.0',
+    'python>=3.6.0',
+    'numpy>=1.0.0',
+    'math>=3.0.0',
+    'scipy>=1.0.0'
     ]
 )
