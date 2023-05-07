@@ -1,1 +1,1 @@
-from distributions import PERT
+from .distributions import PERT
