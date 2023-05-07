@@ -1,4 +1,5 @@
-from distutils import setup, find_namespace_packages
+from distutils.core import setup
+from distutils import find_namespace_packages
 setup(
     name='LappisDistributions',
     version='0.0.1',
