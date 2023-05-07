@@ -8,9 +8,5 @@ setup(
     license='MIT',
     packages=['LappisDistributions'],
     description='A collection of selected distributions',
-    install_requires=[
-    'numpy',
-    'math',
-    'scipy'
-    ]
+    install_requires=[]
 )
